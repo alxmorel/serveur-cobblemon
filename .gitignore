@@ -1,0 +1,49 @@
+# Minecraft runtime
+logs/
+crash-reports/
+eula.txt
+usercache.json
+usernamecache.json
+whitelist.json
+ops.json
+banned-players.json
+banned-ips.json
+
+# Minecraft worlds / generated data
+world/
+world_nether/
+world_the_end/
+server.properties
+
+# Server runtime / generated files
+*.log
+*.lck
+*.tmp
+*.bak
+
+# Backups
+backups/
+
+# Java / Gradle / build outputs
+.gradle/
+build/
+out/
+*.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Temporary development files
+tmp/
+temp/
