@@ -6,7 +6,7 @@ SOURCE="$PROJECT/datapack/pokemon-world"
 DEST_DIR="/opt/minecraft/dev/server/world/datapacks"
 TARGET="$DEST_DIR/pokemon-world"
 STAGING="$DEST_DIR/.pokemon-world.staging"
-BACKUP="/opt/minecraft/dev/backups/datapacks/pokemon-world.previous"
+BACKUP="/opt/minecraft/dev/backups/datapacks/pokemon-world.$(date -u +%Y%m%dT%H%M%S)-$$"
 
 echo "==> Validation du datapack"
 
